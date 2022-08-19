@@ -159,3 +159,76 @@ img[alt="headphone"] {
   bottom: 4rem;
   background-color: black;
 }
+
+
+@media screen and (max-width: 768px) { 
+   img[alt="logo"]{
+    width: 5rem;
+   }
+
+   .nav-items {
+    display: none;
+   }
+
+   nav {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .intro-section {
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .dots {
+    display: none;
+   }
+
+   .action-btn {
+    top: 25rem;
+   }
+
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  img[alt="logo"]{
+    width: 5rem;
+   }
+
+   .nav-items {
+    display: none;
+   }
+
+   nav {
+    display: flex;
+    justify-content: space-between;
+    
+   }
+
+   .intro-section {
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .dots {
+    display: none;
+   }
+
+   .action-btn {
+    top: 25rem;
+   }
+
+
+
+}
+
+
+@media screen and (min-width: 1024px) { 
+
+}
+
